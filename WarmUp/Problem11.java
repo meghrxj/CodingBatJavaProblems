@@ -1,3 +1,5 @@
+package WarmUp;
+
 public class Problem11 {
 
     public static String frontBack(String str){

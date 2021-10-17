@@ -1,4 +1,4 @@
-package WarmpUp;
+package WarmUp;
 
 public class Problem7 {
 

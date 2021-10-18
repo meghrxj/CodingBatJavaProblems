@@ -1,5 +1,5 @@
 package WarmpUp2;
 
-public class Problem6 {
+public class warmup2 {
     
 }

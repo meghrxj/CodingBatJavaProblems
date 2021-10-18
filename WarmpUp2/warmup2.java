@@ -50,7 +50,7 @@ public static int countXX(String str) {
 
     int count = 0;
 
-    for ( int i = str.indexOf( "xx" ); i != -1; i = str.indexOf( "xx", i + 1 ) )
+    for (int i = str.indexOf( "xx" ); i != -1; i = str.indexOf( "xx", i + 1 ) )
     {
         count++;
     }
@@ -59,19 +59,14 @@ public static int countXX(String str) {
   
 }
 
+/*Given a string, return true if the first instance of "x" in the string is immediately followed by another "x".
+doubleX("axxbb") → true
+doubleX("axaxax") → false
+doubleX("xxxxx") → true*/
 
+public static boolean doubleX(String str){
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 public static void main(String[] args){
 
@@ -85,6 +80,24 @@ public static void main(String[] args){
     System.out.println(frontTimes("Chocolate", 2));
     System.out.println(frontTimes("Chocolate", 3));
     System.out.println(frontTimes("Abc", 3));
+
+    //countXX
+    System.out.println(countXX("abcxx"));
+    System.out.println(countXX("xxx"));
+    System.out.println(countXX("xxxxx"));
+
+
+    //doubleX 
+
+    System.out.println(doubleX("axxbb"));
+    System.out.println(doubleX("axaxax"));
+    System.out.println(doubleX("xxxxxx"));
+
     }
+
+    //countXX times
+
+    
+    
 
 }

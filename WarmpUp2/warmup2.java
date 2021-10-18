@@ -39,9 +39,9 @@ public static String stringTimes(String str, int n) {
 public static void main(String[] args){
 
     //stringTimes
-    System.out.println(stringTimes(("Hi", 2));
-    System.out.println(stringTimes(("Hi", 3));
-    System.out.println(stringTimes(("Hi", 1));
+    System.out.println(stringTimes("Hi", 2));
+    System.out.println(stringTimes("Hi", 3));
+    System.out.println(stringTimes("Hi", 1));
 
     }
 
